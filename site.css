@@ -1,0 +1,6 @@
+:root{--bg:#1B1530;--fg:#F3E6C6;--mut:#C9BFA8;--gold:#E2B54E;--card:#272043}
+@media (prefers-color-scheme:light){:root{--bg:#F6EFE0;--fg:#2A1E2A;--mut:#5E5245;--gold:#8A6510;--card:#FFF9EC}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,"Times New Roman",serif}
+main{max-width:720px;margin:0 auto;padding:28px 16px 60px}h1{font-size:26px;margin:10px 0 2px}h2{font-size:19px;color:var(--gold);margin:28px 0 6px}
+p,li{color:var(--mut)}b{color:var(--fg)}a{color:var(--gold)}header{display:flex;gap:14px;align-items:center}header img{width:64px;height:64px;border-radius:14px}
+.sub{color:var(--mut)}.card{background:var(--card);border-radius:10px;padding:4px 16px;margin:18px 0}footer{margin-top:40px;font-size:14px;color:var(--mut)}
